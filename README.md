@@ -36,10 +36,10 @@ The project follows a realistic workflow:
 
 | Figure | Description |
 |--------|-------------|
-| <img src="figures/step_response.png" width="400"/> | **Closed‑loop step response** <br> PI controller (\(K_p=200, K_i=20000\)) achieves settling time ~3.25 s and overshoot ~1 %, matching the design specifications. |
-| <img src="figures/disturbance_rejection_comparison.png" width="400"/> | **Disturbance rejection** <br> Adding the feedforward gain \(K_d = -15000\) (orange) significantly reduces the low‑frequency road disturbance compared to the case without compensation (blue). |
-| <img src="figures/disturbance_estimation_result.png" width="400"/> | **Disturbance estimation** <br> When the road profile is not measured, a shadow model + low‑pass filter estimates it online. The output with estimated compensation (orange) still reduces the disturbance effectively, though high‑frequency residues remain. |
-| <img src="figures/measurement_noise_effect.png" width="400"/> | **Measurement noise robustness** <br> Adding –40 dB white noise to the output measurement introduces ripple, but the controlled output (orange) remains stable and bounded – the controller shows acceptable robustness. |
+| <img src="figures/step_response.png" width="600"/> | **Closed‑loop step response** <br> PI controller (\(K_p=200, K_i=20000\)) achieves settling time ~3.25 s and overshoot ~1 %, matching the design specifications. |
+| <img src="figures/disturbance_rejection_comparison.png" width="600"/> | **Disturbance rejection** <br> Adding the feedforward gain \(K_d = -15000\) (orange) significantly reduces the low‑frequency road disturbance compared to the case without compensation (blue). |
+| <img src="figures/disturbance_estimation_result.png" width="600"/> | **Disturbance estimation** <br> When the road profile is not measured, a shadow model + low‑pass filter estimates it online. The output with estimated compensation (orange) still reduces the disturbance effectively, though high‑frequency residues remain. |
+| <img src="figures/measurement_noise_effect.png" width="600"/> | **Measurement noise robustness** <br> Adding –40 dB white noise to the output measurement introduces ripple, but the controlled output (orange) remains stable and bounded – the controller shows acceptable robustness. |
 
 > All figures are taken from the project report and correspond to the nominal system with the designed PI controller.
 
