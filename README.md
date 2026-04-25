@@ -1,6 +1,7 @@
 # LCS-active-suspension (Quarter‑Car Model)
 
-Linear Control Systems course project – PI control, disturbance feedforward & estimation, robustness analysis, and code generation for a quarter‑car active suspension.
+Linear Control Systems course project.
+PI control, disturbance feedforward & estimation, robustness analysis, and code generation for a quarter‑car active suspension.
 
 ## Overview
 
